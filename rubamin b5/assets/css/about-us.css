@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('../fonts/font-awesome.min.css');
+/* Fonts */
+body{font-family: 'Raleway', sans-serif;}
+
+/* --------------- Common CSS -------------- */
+.sectionspacing{padding: 90px 0px;}
+
+/* ----------------- Navbar ----------------- */
+/* .navbar-nav li a{color:#000 ;} */
+.navbar-nav li :hover{color:#91b77e;}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent !important;
+    color: var(--color-active) !important;
+}
+@media (max-width: 576px) {
+    .dropdown-menu{text-align: center;}
+ }
+
+/* ----------------- Banner ----------------- */
+#Banner {font-family: 'Raleway', sans-serif;font-weight: 500;background-image: url("../img/About-us/bg-banner.png");background-size: cover;background-repeat: no-repeat;}
+#Banner h1:hover {text-decoration: underline;}
+#Banner .sustain:hover{ text-decoration: underline !important;}
+#rubamin-navbar{position: absolute; background-color: white; width:100%;}
+.banner-txt{padding: 170px 0px; margin-top: 10px;}
+@media (max-width:576px){
+    #Banner{text-align: center;}
+}
+
+/* ----------------- Rubamin Journey ----------------- */
+#rubamin-journey p{font-family: 'Raleway', sans-serif;font-weight: 500;font-size: 15px;color: #a0c18f;}
+#rubamin-journey h1{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 32px;line-height: 46px;}
+@media (max-width: 576px) {
+    .part-1{text-align: justify;}
+}
+
+/* ----------------- Rubamin Values ----------------- */
+#rubamin-journey p{font-family: 'Raleway', sans-serif;font-weight: 500;font-size: 16px;}
+#rubamin-values h1{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 32px;}
+#rubamin-values h5{font-family: 'Raleway', sans-serif;font-weight: 500;font-size: 18px;}
+#rubamin-values{background-color: #f1f6ee;}
+@media (max-width: 992px) {
+    .para{text-align: justify;}
+}
+@media (max-width: 576px) {
+    .para{text-align: center;}
+}
+
+/* ----------------- Institution ----------------- */
+#institution p{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 15px;}
+#institution h1{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 32px;}
+#institution h2{font-family: 'Roboto', sans-serif;font-weight: 400;font-size: 30px;}
+
+#institution{background-image: url("../img/About-us/map.png"); }
+.border-aline-right{position: relative;}
+.border-aline-right:after{content: "";width: 1px;height: 50px;background-color: #cccccc;top: 10%;right:0;position: absolute;} 
+@media (min-width: 992px) {
+    .r1{padding: 0px 120px;}.r2{padding:0px 80px;} 
+}
+@media (max-width: 576px) {
+    .border-aline-right{position: relative;padding-top: 15px;box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;}
+    .border-aline-right:after{content: "";width: 1px;height: 50px;background-color: #cccccc;top: 0;right:0;position: absolute;}   
+}
+
+/* ----------------- Leadership ----------------- */
+#leadership h1{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 32px;}
+#leadership h4{font-family: 'Raleway', sans-serif;font-weight: 500;font-size: 18px;}
+#leadership p{font-family: 'Raleway', sans-serif;font-weight: 500;font-size: 16px;}
+#leadership {background-color: #f8f8f8;}
+.buttons .btn-default{background-color: #eeeeee; border:3px solid #fff !important; border-radius: 10px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;transition: 0.5s;}
+.buttons .btn-default:hover{background-color: #cee3c4;border:3px solid #91b77e !important;box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;transition: 0.8s;}
+.item {box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;}
+.id-1 .owl-theme .owl-nav [class*="owl-"]:hover {background: unset;color: unset;}
+.id-1 .owl-prev {left: -60px;}
+.id-1 .owl-next {right: -60px;}
+.id-1 .owl-prev, .owl-next {position: absolute;top: 100px;}
+.fa-chevron-left,.fa-chevron-right{color: #8d8d8d;}
+.fa-chevron-right ,.fa-chevron-left :hover{color: #000000;}
+
+/* ----------------- Strong-Pillar's ----------------- */
+#strong-pillar h1{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 32px;}
+#strong-pillar p{font-family: 'Raleway', sans-serif;font-weight: 500;font-size: 16px;}
+.color-bg{background-color: #f3f7f0;box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;}
+
+@media (max-width: 992px) {
+    .text-para{text-align: center;}
+}
+
+/* ----------------- csr ----------------- */
+#csr  h1{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 32px;}
+#csr p{font-family: 'Raleway', sans-serif;font-weight: 500;font-size: 16px;}
+#csr {background-color: #f1f6ee;}
+.owl-theme .owl-nav [class*="owl-"]:hover {background: unset;}
+.owl-prev {left: -60px;}
+.owl-next {right: -60px;}
+.owl-prev, .owl-next {position: absolute;top: 20px;} 
+@media (max-width: 576px) {
+    #csr .img-ark .owl-carousel .owl-item img {display: block;width: unset !important;}
+}
+
+/* ----------------- investors ----------------- */
+#investors h1{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 32px;}
+#investors button{ border: none; padding: 5px 18px;  border: 3px solid white !important;border-radius: 10px !important;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+#investors button:hover{background: #cee3c4; border: 3px solid #91b77e !important;;box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;transition: 0.8s;}
+#investors .buttons{text-align: center;}
+@media (max-width: 767px) {
+    #recognition button{ display:block;}
+}
+
+/* ----------------- recognitions ----------------- */
+#recognition h1{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 32px;}
+#recognition {background-color: #f8f8f8;overflow: hidden;}
+#recognition button{ border: none; padding: 5px 18px;  border: 3px solid white !important;border-radius: 10px !important;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+#recognition button:hover{background: #cee3c4; border: 3px solid #91b77e !important;;box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;transition: 0.8s;}
+
+@media (max-width: 767px) {
+    #recognition button{ display:block !important; margin:auto; margin-top: 5px; }
+    #recognition .compy-logo img{display: block;margin-bottom: 20px !important;justify-content: center;}
+}
+
+/* ----------------- footer ----------------- */
+#footer{font-family: 'Raleway', sans-serif;font-weight: 400;font-size: 15px;background-color: #f1f6ee;}
+#footer .r1 p{line-height: 2;}
+#footer a {color: #000;}
+#footer a:hover {color:#91b77e;} 
+@media(max-width: 576px) {
+    #footer .footer-content a {display: block;margin-top: -15px;}
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+
+
+/* ------------------------------------------BANNER---------------------------------------------- */
+#banner{background-image: url(../img/blog/blog.png); height: 400px;}
+#banner .txt p{position: absolute; top: 20%; left: 12%;}
+#banner .txt .h1{position: absolute; top: 25%; left: 12%;}
+
+/* ------------------------------------FOOTER--------------------------------------------------- */
+#footer{padding-top:5rem; padding-bottom:2rem; font-size:0.94rem; line-height: 1.8rem; color:#333;}
+#footer #clientlogo{margin-top:-9.4rem; margin-bottom:2rem;}
+#footer a{color:#333;}
+#footer a:hover, #footer a.active{color:#91b77e;}

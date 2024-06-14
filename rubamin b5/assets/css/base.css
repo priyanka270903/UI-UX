@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+
+/*-- ELEMENT - STYLE --*/
+body{font-family: 'Raleway', sans-serif; font-size: 16px;}
+a{text-decoration: none;}
+h2{font-size: 2rem; margin:0; padding:0;}
+h2 span{font-size:0.94rem; color:#91b77e;}
+h3{font-size: 1.13rem; margin:1rem 0; padding:0;}
+p{font-family: 'Raleway', sans-serif; font-size: 16px;}
+h1, h5,a{font-family: 'Raleway', sans-serif; font-weight: 400;}
+
+/*-- HOME PAGE - STYLE --*/
+#hmourbusiness .col-sm-4:hover .link-secondary, #hmvalues .col-sm-3:hover .link-secondary{color:#91b77e !important;}
+#hmourbusiness .col-sm-4:hover img{box-shadow: 0px 0px 14px 2px rgba(0, 0, 0, 0.13);}
+@media (max-width: 576px) {
+	#hmvalues {text-align: center;}
+}	
+
+/*-- FOOTER - STYLE --*/
+#footer{padding-top:5rem; padding-bottom:2rem; font-size:0.94rem; line-height: 1.8rem; color:#333;}
+#footer #clientlogo{margin-top:-9.4rem; margin-bottom:2rem;}
+#footer a{color:#333; text-decoration: none;}
+#footer a:hover, #footer a.active{color:#91b77e;}
+
+/*-------------------HM-SUSTAINABILITY-------------------*/
+#hmsustainability .card-img-overlay .card-block {  position: absolute;   top: 0; right: 0; bottom: 0; left: 0; z-index: 1;}
+#hmsustainability .img-text { position: relative;bottom: 35px;}
+#hmsustainability .card:hover .img-text{opacity:0;}
+#hmsustainability .card .card-img-overlay {opacity:0;}
+#hmsustainability .card .card-img-overlay:hover {opacity:1; background:#4b4b4bce;transition: all 0.5s ease-in-out;border-radius:25px;}
+
+
+/* priyanka */
+#header .navbar a:hover{color: #91b77e;}
+#header .navbar a{color: #000;}
+#header .dropdown-menu a:hover{background-color:#91b77e ; color: #fff;}
+@media (min-width: 768px) and (max-width: 992px) {
+	#header ul li{font-size: 13px;}
+}	
+/* ---------------------------------------priyanka blog--------------------------------------------------------- */
+#bannerblog{background-image: url(../img/blog/blog.png); height: 400px; }
+#bannerblog .txt p{position: absolute; top: 20%; left: 12%;}
+#bannerblog .txt .h1{position: absolute; top: 25%; left: 12%;}
+/* ---------------------------------------------BLOG----------------------------------------------- */
+#blog .card{box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border: none; height:450px;}
+#blog .btns .btn{border: 3px solid #fff; background: #eeeeee; box-shadow: 0px 0px 5px 5px #eeeeee;}
+#blog .btns .btn:hover{background: #cee3c4; border: 3px solid #7fa57c;}
+#blog .card-header{background: none; border: none;}
+#blog .card-footer{background: none;  border: none; color: gray;}
+#blog .b1{background: #7fa57c;color: #fff; margin: -24px 0 0 -16px;}
+@media(max-width:768px){
+    #blog .card{height:470px;}
+}
+/* ------------------------------------------priyanka career--------------------------------------------------------- */
+/* ------------------------------------BANNER--------------------------------------------------- */
+#banner{background-image: url(../img/carrer/banner.png);  height: 400px; }
+#banner .txt p{position: absolute; top: 20%; left: 12%;}
+#banner .txt .h1{position: absolute; top: 25%; left: 11%;}
+/* ------------------------------------cAREER--------------------------------------------------- */
+#career .txt1{color: #7fa57c;}
+
+/* ---------------------------------------priyanka blog-details --------------------------------------------------------- */
+/* ------------------------------------BANNER--------------------------------------------------- */
+#bannerblog-details {background-image: url(../img/blog-details/blog-details.png); height: 400px;}
+#bannerblog-details .txt p{position: absolute; top: 20%; left: 12%;}
+#bannerblog-details .txt .h1{position: absolute; top: 25%; left: 12%;}
+/* ------------------------------------blog-details--------------------------------------------------- */
+#contents .lasttxt{color: grey;}
+/* ---------------------------------------priyanka business --------------------------------------------------------- */
+/* ----------------------------------------------content----------------------------------------------- */
+#zinc-content img{box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 12px;}
+@media (max-width:768px) {
+	#zinc-content p{text-align: center;}
+}	
+/* -------------------------------------------application---------------------------------------- */
+#app .btn{border: 3px solid #fff; background: #eeeeee; box-shadow: 0px 0px 5px 5px #eeeeee;}
+#app .btn:hover{background: #cee3c4; border: 3px solid #7fa57c;}
+/* -------------------------------------------count---------------------------------------- */
+#count .box{box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 12px;} 
+#count .bd::after{content: ''; border-right: 1px solid #dee2e6 ;position: relative;left: 429px; bottom: 10px; padding-top: 75px;}
+#count .bb{content: ''; border-bottom: 1px solid #dee2e6 ;}
+#count .bb:hover{background-color: #eaf6e5;}
+#count .bb:hover a{ color: #91b77e;}
+#count .bb a{ color: #9c9c9c;}
+#count h1{color: #dee2e6;}
+/* count1----------------------------------------- */
+#content2{background: url(../img/business/bgimgbus2.png); height: 180px;}
+#content2 .cunt::after{content: ''; border-right: 1px solid #dee2e6 ; position: relative; left: 190px; bottom: 55px; padding-top: 30px;}
+/* --------------------business--------------------------- */
+#business  .list-group .list-group-item {background-color:#e9f5e4;color:#000;border:3px solid #fff;border-radius:12px; }
+#business  .list-group .list-group-item.active {background-color:#91b77e;color:#fff;border:3px solid #fff;border-radius:12px;}
+#business  .list-group .list-group-item:hover {background-color:#91b77e;color:#fff;border:3px solid #fff;border-radius:12px;}
+#business img{box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 14px;}
+
+/* ----------------------------------------zinc-product---------------------------------------------- */
+#zinc-pro{background: url(../img/business-products/bgimgbus.png) top center no-repeat ; height: 330px; background-size:cover; }
+#zinc-pro .txt p{position: absolute; top: 20%; left: 12%;}
+#zinc-pro .txt .h1{position: absolute; top: 25%; left: 12%;}
+
+#zinc-content img{box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 12px;}
+@media (max-width:768px) {
+	  #zinc-content p{text-align: center;}
+}	 
+/*---------------------------------------PRODUCTS--------------------------------------------*/
+#products .box1{border: 1px solid #dee2e6; border-radius: 20px;}
+#products .btn{border: 3px solid #fff; background: #eeeeee; box-shadow: 0px 0px 5px 5px #eeeeee; border-radius: 10px;}
+#products .btn:hover{background: #cee3c4; border: 3px solid #7fa57c;}
+#products .btnn{background: #f3f3f3; border: none; color: #333;}
+#products h3 {margin: unset;}
+#products .inv {display: none;}
+#products .b1{border: none; height: 40px; background-color: #f3f3f3;}
+#products .fa-chevron-down{font-size: 10px; margin-right: -43px;}
+#products .list1{background-color: #fff;}
+#products .btnnn{background-color: unset; border: none;}
+
+
+
+
+
+/* sus */
+/* ----------------- Banner ----------------- */
+#Banner {font-family: 'Raleway', sans-serif;font-weight: 500;background-image: url("../img/bg-banner.png");height: 306px;background-size: cover;background-repeat: no-repeat;}
+#Banner h1:hover {text-decoration: underline;}
+#Banner .sustain:hover{ text-decoration: underline !important;}
+@media (max-width:576px){
+    #Banner{text-align: center;}
+}
+
+/* -------------- Sustainability At Rubamin ----------- */
+#sustain-at-rubamin{font-family: 'Raleway', sans-serif;font-weight: 400;}
+.card-bottomtext{position: relative;}
+.card-text  {
+	position: absolute;	}
+/* ------------- Sustainability ------------ */
+#sustainability{background-color: #f8f8f8;}
+ .title{border-bottom: 1px solid rgb(218, 206, 206);padding-bottom: 5px;} 

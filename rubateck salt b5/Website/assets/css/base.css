@@ -1,0 +1,79 @@
+/* --------------------navigation-------------------- */
+#header .carousel-control-prev{top: 80%; left: 8%;}
+#header .fa-phone{background-color: #0f5ba6; border-radius: 27px; padding: 16px 18px; color: #fff;}  
+#header ul li a{font-size: 18px;}
+#header .navbar a:hover{color: #e56e54;}
+#header ul li a{color: #000;}
+/* --------------------banner-------------------- */
+.carousel-control-prev{top: 80%; left: 8%;}
+.carousel-control-next{top: 80%; right: 74%;}
+#banner .b1{background: #0f5ba6; padding: 7px 15px; color: #fff; }
+#banner .b1:hover{background-color: #fff; color: red; border: unset;}
+#banner .b2:hover{background-color: #0f5ba6; color: red; border: unset;}
+@media(max-width:1200px){
+    #banner .carousel-caption  h1{font-size: 40px; }   
+    #banner .carousel-caption{top: 8%;}
+}
+@media(max-width:992px) {
+    #banner .carousel-caption  h1{font-size: 27px; }   
+    #banner .carousel-caption{top: 5%;}
+}
+@media (max-width:767px){
+     #banner .carousel-caption  h1{font-size: 22px; }   
+    #banner .carousel-caption{top: 9%;}
+    #banner .btn{display: none;}
+#banner .carousel-control-prev-icon{height: 1.5rem; }
+#banner .carousel-control-next-icon{height: 1.5rem;}
+}
+/* --------------------Services-------------------- */
+#services .card {border: unset; position: relative;}
+#services .p3{background:#e8f2fc; display: inline-flex;}
+#services .overlay{position: absolute; opacity: 0; background: #3271b0cc; height: 78%; width: 88%;top: 12px; left: 8px; color: #f1f1f1; transition: .5s ease; text-align: center; border-radius: 13px; line-height: 1.5rem;}
+#services .card:hover .overlay{opacity: 1;}
+#services .card:hover .t1{opacity: 0;}
+#services .b1{background: #0f5ba6; padding: 7px 15px; color: #fff; }
+@media(min-width:992px) and (max-width:1199px) {
+    #services .overlay{height: 73%;}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #services .overlay{ height: 74%; width: 84%; top: 3px; left: 3px; bottom: 8px; right: 3px; text-align: center;line-height: 1.0rem;}
+}
+
+@media(max-width:767px){
+
+}
+/* --------------------COMPANY PROFILE-------------------- */
+#compprofile{background: #f4f9fc;}
+#compprofile .img{background: url(../img/comppro.png) center right no-repeat; height: 783px;}
+#compprofile .p2{background:#e8f2fc; display: inline-flex;}
+#compprofile .txts{line-height: 1.9rem;}
+#compprofile .b1{background: #0f5ba6; padding: 7px 15px; color: #fff; }
+/* --------------------contact us-------------------- */
+#contactus .p1{background: #e8f2fc; display: inline-flex;}
+#contactus {margin-top: 50px;}
+#contactus .b1{background: #0f5ba6; padding: 7px 15px; color: #fff; }
+/* ------------------footer------------ */
+#footer1{background-image: url(../img/footer.png);}
+#footer1 a{text-decoration: none;}
+#footer1 a:hover{text-decoration: underline;}
+/*----------------------- media query--------------------------------- */
+@media(min-width:992px) and (max-width:1199px) {
+
+    #contactus .img-fluid{height: 540px;}
+    /* --------------------COMPANY PROFILE-------------------- */
+    #compprofile .txts{line-height: 1.6rem;}
+}
+@media(min-width:768px) and (max-width:991px) {
+    #contactus .img-fluid{height: 540px;}
+    /* --------------------COMPANY PROFILE-------------------- */
+    #compprofile .img{margin: -10px;}
+}
+@media(max-width:768px){
+    #contactus .img-fluid {display: none;}
+    #contactus .p1{margin-left: 30px;}
+    /*---------------------- footer--------------------------- */
+    #footer1 .link a{display: block; margin: -12px 0px;}
+     /* --------------------COMPANY PROFILE-------------------- */
+     #compprofile .img{background: url(../img/comppro.png) center center no-repeat; height: 650px;}
+}

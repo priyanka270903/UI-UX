@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+body{font-family: 'Raleway', sans-serif;}
+h1{font-family: 'Raleway', sans-serif; font-weight: 400;}
+/*---------------------------------------BANNER--------------------------------------------*/
+#banner{background: url(../img/bgimg.png) top center no-repeat ; height: 330px; background-size:cover; }
+#banner .txt p{position: absolute; top: 20%; left: 12%;}
+#banner .txt .h1{position: absolute; top: 25%; left: 12%;}
+
+/*---------------------------------------CONTACT-US--------------------------------------------*/
+#hmcontactus .form-control, .form-select{border-radius: 0px; background: #eeeeee; border: unset;}
+#hmcontactus .btn{border: 3px solid #fff; background: #eeeeee; box-shadow: 0px 0px 5px 5px #eeeeee;}
+#hmcontactus .btn:hover{background: #fff;}
+@media (max-width:992px){
+    #hmcontactus p br{display: none;}
+}
+@media (max-width:768px){
+    #hmcontactus .icon{margin-top: 30px;}
+}
+
+/*---------------------------------------FOOTER--------------------------------------------*/
+#footer{padding-top:2rem; padding-bottom:2rem; font-size:0.94rem; line-height: 1.8rem; color:#333;}
+#footer #clientlogo{margin-top:-9.4rem; margin-bottom:2rem;}
+#footer a{color:#333;}
+#footer a:hover, #footer a.active{color:#91b77e;}
